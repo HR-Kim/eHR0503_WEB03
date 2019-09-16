@@ -36,7 +36,7 @@ import kr.co.ehr.user.service.User;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING) // @Test NAME_ASCENDING으로 수행.
 public class UserExcelTest {
 	private final Logger LOG = LoggerFactory.getLogger(this.getClass());
-
+  
 	@Autowired
 	private WebApplicationContext context;
 
